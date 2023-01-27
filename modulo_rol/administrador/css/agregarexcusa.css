@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(221deg,
+            rgba(255, 255, 255, 1) 15%,
+            rgba(2, 178, 255, 1) 80%);
+    border-bottom: solid 2px #000000;
+}
+
+.titulo {
+    padding: 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.empresa {
+    width: 200px;
+    height: 90px;
+    float: left;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.atras {
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #00ACEC;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-right: 1%;
+    float: right;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+    transition: 0.2s;
+    cursor: pointer;
+    transition-property: background;
+}
+
+.atras:hover {
+    background-color: #ff0000;
+}
+
+.h2-titulo {
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.bloque {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colegio {
+    position: absolute;
+    width: 60vh;
+    opacity: 0.1;
+}
+
+.bloque-dentro {
+    margin-top: 100px;
+    padding: 30px 40px;
+    background-color: #b4e8ff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+}
+
+.label {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.text {
+    width: 30rem;
+    height: 300px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.btn {
+    padding: 13px;
+    background-color: #00ACEC;
+    border-radius: 2px;
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    margin: 15px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    transition-property: background;
+}
+
+.btn:hover {
+    background-color: #5FC6ED;
+}

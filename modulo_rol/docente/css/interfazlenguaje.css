@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 170px;
+  border-bottom: solid 2px #000000;
+  background: linear-gradient(
+    274deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(2, 178, 255, 1) 63%
+  );
+}
+.h2-titulo {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #000000;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+.empresa {
+  float: left;
+  width: 10%;
+  height: 10%;
+  margin-top: 5px;
+  margin-left: 2%;
+}
+.titulo-c {
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 13px -5px rgba(0, 0, 0, 0.75);
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    144deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(54, 193, 255, 1) 58%
+  );
+}
+.estilos-bloque {
+  padding: 20%;
+}
+label {
+  text-align: start;
+  font-weight: 600;
+  font-size: 15px;
+}
+.estilos-bloque option {
+  outline: none;
+  font-size: 15px;
+  height: 20px;
+}
+.option {
+  width: 300px;
+  height: 30px;
+  outline: none;
+}
+option:hover {
+  background-color: #02b2ff;
+}
+#cerrar-sesion {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  margin-top: 2%;
+  margin-right: 2%;
+  float: right;
+  color: #000000;
+  background-color: #02b2ff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.61);
+  transition: 0.7s;
+}
+#cerrar-sesion:hover {
+  background-color: #ffffff;
+}
+.btn {
+  border: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+}
+a:link {
+  text-decoration: none;
+}

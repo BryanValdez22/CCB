@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(221deg,
+            rgba(255, 255, 255, 1) 15%,
+            rgba(2, 178, 255, 1) 80%);
+    border-bottom: solid 2px #000000;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 40px;
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#cerrar-sesion {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 2%;
+    float: right;
+    color: #fff;
+    background-color: #00acec;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.61);
+    transition: 0.2s;
+    transition-property: background;
+}
+
+#cerrar-sesion:hover {
+    color: #fff;
+    background-color: #ff0000;
+}
+i{
+    margin-right: 5px; 
+}
+
+.empresa {
+    width: 200px;
+    height: 85px;
+    float: left;
+}
+
+.h2-titulo {
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    width: 50vh;
+    padding: 30px 40px;
+    border-radius: 3px;
+    background-color: #9DE7FF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.71);
+    margin-top: 5rem;
+}
+.boton {
+    background: #00acec;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.71);
+    cursor: pointer;
+}
+a{
+    color: #fff;
+}
+
+.boton:hover{
+    background-color: #00B9FF ;
+}
+
+.btn{
+    padding: 10px 50px;
+    border-radius: 3px;
+    background-color: #00acec;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.71);
+}
+.btn:hover{
+    background-color: #ff0000;
+}

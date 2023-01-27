@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #AAE8FF;
+}
+
+.acercade {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* ------------------------------Animaciones del header ------------------------- */
+
+.fadeInDown {
+    animation-duration: 2s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0,-100%,0);
+      transform: translate3d(0,-100%,0);
+    }
+    to{
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+  }
+  
+  /*--------------- Cierre de Animaciones ----------------------------*/
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25vh 30px;
+}
+
+.cont {
+    padding: 10px 30px 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.71);
+}
+
+#hr {
+    margin-bottom: 20px;
+}
+
+.actualizar {
+    position: relative;
+    padding: 7px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    float: left;
+    background-color: #00ACEC;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+}
+
+.actualizar:hover {
+    background-color: #00C1FF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.titulo {
+    margin: 70px 0 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.link {
+    color: #003AFF;
+    font-weight: 400;
+    text-align: left;
+}
+
+.h2-titulo {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.h2-titulo span {
+    font-weight: 500;
+}
+
+.empresa {
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #afafaf;
+}

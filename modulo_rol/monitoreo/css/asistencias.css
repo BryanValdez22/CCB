@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  width: 100%;
+  background: linear-gradient(
+    221deg,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(2, 178, 255, 1) 80%
+  );
+  border-bottom: solid 2px #000000;
+}
+.titulo {
+  font-size: 30px;
+  color: #000000;
+  padding: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#cerrar-sesion {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 2%;
+  float: right;
+  color: #000000;
+  background-color: #02b2ff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.61);
+  transition: 0.7s;
+  transition-property: background;
+}
+#cerrar-sesion:hover {
+  background-color: #ffffff;
+}
+a:link {
+  text-decoration: none;
+}
+.h2-titulo {
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  padding: 35px;
+}
+.img {
+  width: 200px;
+  right: 60px;
+  float: left;
+}
+.izquierda {
+  position: relative;
+  width: 15%;
+  float: left;
+  background-color: #02b2ff;
+}
+.bloque {
+  width: 70%;
+  float: left;
+  position: relative;
+}
+/* .buscar {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+.input {
+  align-items: center;
+  width: 20%;
+  height: 30px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  border: solid 1px #02b2ff;
+  padding-left: 10px;
+} */

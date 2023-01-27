@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(264deg, rgba(255, 255, 255, 1) 17%, rgba(0, 172, 236, 1) 86%);
+    border-bottom: solid 1px #000000;
+}
+
+#cerrar-sesion {
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 2%;
+    width: 150px;
+    height: 30px;
+    float: right;
+    color: #ffffff;
+    background-color: #00ACEC;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+    transition: 0.2s;
+    transition-property: background;
+}
+
+.empresa {
+    float: left;
+    width: 200px;
+    height: 90px;
+}
+
+#cerrar-sesion:hover {
+    background-color: #ff0000;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 50px;
+    padding-left: 60px;
+}
+
+.titulo {
+    padding: 30px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container-derecho {
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.container-izquierdo {
+    width: 65%;
+    float: right;
+    position: relative;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.usuario-password {
+    width: 250px;
+    height: 130px;
+    color: #000000;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 51%, rgba(0, 172, 236, 1) 100%);
+    transition-property: background;
+}
+
+.usuario-password:hover {
+    background: linear-gradient(180deg,
+            rgba(60, 196, 255, 1) 0%,
+            rgba(60, 196, 255, 1) 100%);
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.class-1 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#titulo-h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.titulo-fondo {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    color: #d5d8dc;
+    margin: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px #00ACEC;
+    font-size: 15px;
+}
+
+th {
+    text-align: center;
+    border: 1px solid #99e0ff;
+    background-color: #00ACEC;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #8ce4ff;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #afe7ff;
+}
+
+.btn {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    float: left;
+    color: #fff;
+    background-color: #00ACEC;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+    transition: 0.2s;
+    transition-property: background;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+}
+
+.btn-eliminar {
+    margin: 2px;
+    padding: 6px 10px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 300;
+}
+
+.btn-eliminar:hover {
+    background-color: #b60303;
+}
+
+.btn-actualizar {
+    margin: 2px;
+    padding: 6px 10px;
+    background-color: rgb(211, 207, 0);
+    color: #fff;
+    margin-left: 20px;
+    border-radius: 3px;
+    font-weight: 300;
+}
+
+.btn-actualizar:hover {
+    background-color: #afa400;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,273 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(
+    264deg,
+    rgba(255, 255, 255, 1) 17%,
+    rgba(0, 172, 236, 1) 86%
+  );
+  border-bottom: solid 2px #000000;
+}
+
+#cerrar-sesion {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  width: 150px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 2%;
+  float: right;
+  color: #fff;
+  background-color: #00acec;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+  transition: 0.2s;
+  transition-property: background;
+}
+
+a i{
+  padding-right: 5px;
+}
+
+#cerrar-sesion:hover {
+  background-color: #ff0000;
+}
+
+#header {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 900;
+  padding: 50px;
+}
+
+.titulo-general {
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.empresa {
+  float: left;
+  width: 200px;
+  height: 90px;
+}
+
+.info {
+  float: right;
+}
+
+/* ------------------------------Animaciones del header ------------------------- */
+
+.fadeInDown {
+  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+  }
+  to{
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+}
+
+/*--------------- Cierre de Animaciones ----------------------------*/
+
+
+.cont {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+#pagina {
+  float: left;
+  margin: 20px 0px 0px 10px;
+  width: 20px;
+  background: #00acec;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.2s;
+  transition-property: background;
+}
+
+#pagina:hover {
+  background-color: #02b2ff;
+}
+
+#info {
+  float: right;
+  width: 50px;
+  padding: 10px;
+}
+
+#contenedor1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#contenedor2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#contenedor3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor {
+  background: linear-gradient(
+    243deg,
+    rgba(255, 255, 255, 1) 59%,
+    rgba(2, 178, 255, 1) 83%
+  );
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  margin: 20px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+  border-radius: 5px;
+  transition: 0.2s;
+  transition-property: background;
+}
+
+.contenedor2 {
+  background: linear-gradient(
+    243deg,
+    rgba(255, 255, 255, 1) 59%,
+    rgba(2, 178, 255, 1) 83%
+  );
+  padding-left: 75px;
+  padding-right: 85px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  margin: 20px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.71);
+  border-radius: 4px;
+  transition: 0.2s;
+  transition-property: background;
+}
+
+.contenedor2:hover {
+  background: linear-gradient(
+    243deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(2, 178, 255, 1) 0%
+  );
+}
+
+.contenedor2:active {
+  color: #000000;
+  background: linear-gradient(
+    56deg,
+    rgba(255, 255, 255, 1) 28%,
+    rgba(2, 178, 255, 1) 47%,
+    rgba(2, 178, 255, 1) 55%
+  );
+}
+
+.contenedor:hover {
+  background: linear-gradient(
+    243deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(2, 178, 255, 1) 0%
+  );
+}
+
+.contenedor:active {
+  color: #000000;
+  background: linear-gradient(
+    56deg,
+    rgba(255, 255, 255, 1) 28%,
+    rgba(2, 178, 255, 1) 47%,
+    rgba(2, 178, 255, 1) 55%
+  );
+}
+
+.h2-bloque {
+  color: #000000;
+  font-weight: 400;
+  padding: 10px;
+  text-align: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*
+@media (max-width: 1266px) {
+  #titu {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin: 20px;
+  }
+  .cont {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 984px) {
+  .cont {
+    margin-top: 10px;
+  }
+  .contenedor {
+    font-size: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 20px;
+  }
+}
+@media (max-width: 716px) {
+  #contenedor1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #contenedor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #contenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+*/
